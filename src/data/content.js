@@ -7,21 +7,14 @@ export const content = {
     title: "Software Engineering Student • NTNU",
     location: "Trondheim, Norway",
     email: "johan.ma@hotmail.no",
-    summary: "Aspiring software engineering student, eager to learn and contribute to impactful projects.",
+    summary: "I am a dedicated and ambitious software engineering student at NTNU, passionate about developing efficient and innovative software solutions. With a strong foundation in both frontend and backend technologies, I thrive in collaborative environments and am eager to contribute to impactful projects. I am continuously seeking opportunities to expand my skill set and apply my knowledge in real-world scenarios.",
 
     skills: ["Frontend", "Backend", "Testing", "Databases", "Agile/Scrum"],
-    technologies: ["React", "Vue", "Spring Boot", "Java", "JavaScript", "MySQL", "Git"],
+    technologies: ["React", "Vue", "Spring Boot", "Java", "JavaScript/TypeScript", "C/C++", "Kotlin", "MySQL", "Git"],
 
-    hobbies: ["Golf", "Football", "Training", "Building side projects", "Learning new tech"],
+    hobbies: ["Golf", "Football", "Training", "Learning new tech"],
 
     work: [
-        {
-            role: "Customer Advisor (Summer Job)",
-            company: "DNB",
-            location: "Trondheim, Norway",
-            period: "Mar 2025 – Aug 2025",
-            points: ["Client interaction", "Problem-solving", "Team collaboration", "Efficient use of IT systems"],
-        },
         {
             role: "Loading Supervisor, Team Leader (2022)",
             company: "Aviator Airport alliance AS",
@@ -29,6 +22,13 @@ export const content = {
             period: "2021 - present",
             points: ["Operational responsibility", "Team coordination", "High pace environment", "Safety compliance",
                 "Customer service", "Training new employees"],
+        },
+        {
+            role: "Customer Advisor (Summer Job)",
+            company: "DNB",
+            location: "Trondheim, Norway",
+            period: "Mar 2025 – Aug 2025",
+            points: ["Client interaction", "Problem-solving", "Team collaboration", "Efficient use of IT systems"],
         },
         {
             role: "Ramp agent / Baggage handler",
@@ -55,13 +55,13 @@ export const content = {
 
     projects: [
         {
-            name: "Smartlist (School Project)",
+            name: "Smartlist",
             image: smartlist,
             description: "Developed a crossplatform mobile application for managing shopping/to-do/etc. lists using Ionic and Angular.",
             tech: ["Ionic", "Angular"],
         },
         {
-            name: "Krisefikser.no (School Project)",
+            name: "Krisefikser.no",
             image: krisefikser,
             description: "Developed a full-stack web application for household crisis management using Spring Boot and Vue.js.",
             tech: ["Spring Boot", "JWT", "MySQL", "Vue.js"],
@@ -71,7 +71,7 @@ export const content = {
             },
         },
         {
-            name: "SecondGo (School Project)",
+            name: "SecondGo",
             image: secondgo,
             description: "Marketplace platform for buying and selling used items, built with Spring Boot and Vue.js.",
             tech: ["Spring Boot", "JWT", "MySQL", "Vue.js"],
