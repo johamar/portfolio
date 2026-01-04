@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { content } from "../data/content";
+import { contentBase } from "../data/contentBase";
 
 export default function Footer() {
   const [name, setName] = useState("");
@@ -10,7 +10,7 @@ export default function Footer() {
     const body = encodeURIComponent(
       `Name: ${name || "-"}\n\nMessage:\n${msg || "-"}\n`
     );
-    return `mailto:${content.email}?subject=${subject}&body=${body}`;
+    return `mailto:${contentBase.email}?subject=${subject}&body=${body}`;
   }, [name, msg]);
 
   return (
@@ -21,23 +21,23 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold">Links</h3>
           <div className="mt-4 grid gap-2 text-sm">
-            {content.links?.github && (
-              <a className="underline text-black/70 hover:text-black" target="_blank" href={content.links.github}>
+            {contentBase.links?.github && (
+              <a className="underline text-black/70 hover:text-black" target="_blank" href={contentBase.links.github}>
                 GitHub
               </a>
             )}
-            {content.links?.gitlab && (
-              <a className="underline text-black/70 hover:text-black" target="_blank" href={content.links.gitlab}>
+            {contentBase.links?.gitlab && (
+              <a className="underline text-black/70 hover:text-black" target="_blank" href={contentBase.links.gitlab}>
                 GitLab
               </a>
             )}
-            {content.links?.linkedin && (
-              <a className="underline text-black/70 hover:text-black" target="_blank" href={content.links.linkedin}>
+            {contentBase.links?.linkedin && (
+              <a className="underline text-black/70 hover:text-black" target="_blank" href={contentBase.links.linkedin}>
                 LinkedIn
               </a>
             )}
-            {content.links?.youtube && (
-              <a className="underline text-black/70 hover:text-black" target="_blank" href={content.links.youtube}>
+            {contentBase.links?.youtube && (
+              <a className="underline text-black/70 hover:text-black" target="_blank" href={contentBase.links.youtube}>
                 YouTube
               </a>
             )}
@@ -76,10 +76,10 @@ export default function Footer() {
 
         {/* Small print */}
         <div className="md:text-right">
-          <h3 className="font-semibold">{content.name}</h3>
-          <p className="mt-3 text-sm text-black/70">{content.location}</p>
+          <h3 className="font-semibold">{contentBase.name}</h3>
+          <p className="mt-3 text-sm text-black/70">{contentBase.location}</p>
           <p className="mt-6 text-xs text-black/50">
-            © {new Date().getFullYear()} {content.name}
+            © {new Date().getFullYear()} {contentBase.name}
           </p>
         </div>
       </div>

@@ -1,0 +1,76 @@
+{
+  "brand": { "portfolio": "Portfolio" },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "hobbies": "Hobbies",
+    "contact": "Contact"
+  },
+  "labels": {
+    "location": "Location",
+    "email": "Email",
+    "skills": "Skills",
+    "technologies": "Technologies"
+  },
+  "profile": {
+    "name": "Johan Martin Arntsen",
+    "title": "Software Engineering Student • NTNU",
+    "location": "Trondheim, Norway",
+    "summary": "I am a dedicated and ambitious software engineering student at NTNU, passionate about developing efficient and innovative software solutions. With a strong foundation in both frontend and backend technologies, I thrive in collaborative environments and am eager to contribute to impactful projects. I am continuously seeking opportunities to expand my skill set and apply my knowledge in real-world scenarios."
+  },
+  "projects": [
+    {
+      "name": "Smartlist",
+      "description": "Developed a crossplatform mobile application for managing shopping/to-do/etc. lists using Ionic and Angular."
+    },
+    {
+      "name": "Krisefikser.no",
+      "description": "Developed a full-stack web application for household crisis management using Spring Boot and Vue.js."
+    },
+    {
+      "name": "SecondGo",
+      "description": "Marketplace platform for buying and selling used items, built with Spring Boot and Vue.js."
+    }
+  ],
+  "work": [
+    {
+      "role": "Loading Supervisor, Team Leader (2022)",
+      "company": "Aviator Airport alliance AS",
+      "location": "Trondheim/Tromsø, Norway",
+      "period": "2021 - present",
+      "points": [
+        "Operational responsibility", "Team coordination", "High pace environment", "Safety compliance", "Customer service", "Training new employees"]
+    },
+    {
+      "role": "Customer Advisor (Summer Job)",
+      "company": "DNB",
+      "location": "Trondheim, Norway",
+      "period": "Mar 2025 - Aug 2025",
+      "points": ["Client interaction", "Problem-solving", "Team collaboration", "Efficient use of IT systems"]
+    },
+    {
+      "role": "Ramp agent / Baggage handler",
+      "company": "Widerøe Ground Handling AS",
+      "location": "Tromsø, Norway",
+      "period": "2019 - 2021",
+      "points": ["Loading and unloading baggage", "Ensuring safety compliance", "Team collaboration"]
+    },
+    {
+      "role": "Salesman / Driver",
+      "company": "Blekkhuset Kontorspar AS",
+      "location": "Tromsø, Norway",
+      "period": "2016 - 2021",
+      "points": ["Customer service", "Sales", "Logistics and delivery"]
+    },
+    {
+      "role": "Pizzachef / Driver",
+      "company": "Pizzabakeren Giæverbukta",
+      "location": "Tromsø, Norway",
+      "period": "2018 - 2019",
+      "points": ["Food preparation", "Customer service", "Delivery"]
+    }
+  ],
+  "hobbies": ["Golf", "Football", "Training", "Learning new tech"]
+}

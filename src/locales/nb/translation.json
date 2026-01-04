@@ -1,0 +1,81 @@
+{
+  "brand": { "portfolio": "Portefølje" },
+  "nav": {
+    "about": "Om meg",
+    "projects": "Prosjekter",
+    "experience": "Arbeidserfaring",
+    "skills": "Ferdigheter",
+    "hobbies": "Interesser"
+  },
+  "labels": {
+    "location": "Sted",
+    "email": "E-post",
+    "skills": "Ferdigheter",
+    "technologies": "Teknologier"
+  },
+  "profile": {
+    "name": "Johan Martin Arntsen",
+    "title": "Student i Software Engineering • NTNU",
+    "location": "Trondheim, Norge",
+    "summary": "Jeg er en dedikert og ambisiøs software engineering-student ved NTNU, med stor interesse for å utvikle effektive og innovative programvareløsninger. Med et solid grunnlag i både frontend- og backend-teknologier trives jeg i samarbeidende miljøer og er ivrig etter å bidra til meningsfulle prosjekter. Jeg søker kontinuerlig etter muligheter for å utvide mine ferdigheter og anvende min kunnskap i virkelige scenarioer."
+  },
+  "projects": [
+    {
+      "name": "Smartlist",
+      "description": "Utviklet en kryssplattform mobilapp for å håndtere handle-/to-do-lister osv. med Ionic og Angular."
+    },
+    {
+      "name": "Krisefikser.no",
+      "description": "Utviklet en fullstack webapplikasjon for krisehåndtering i husholdninger med Spring Boot og Vue.js."
+    },
+    {
+      "name": "SecondGo",
+      "description": "Markedsplass for kjøp og salg av brukte varer, bygget med Spring Boot og Vue.js."
+    }
+  ],
+  "work": [
+    {
+      "role": "Lasteansvarlig, Teamleder (2022)",
+      "company": "Aviator Airport alliance AS",
+      "location": "Trondheim/Tromsø, Norge",
+      "period": "2021 - i dag",
+      "points": [
+        "Operativt ansvar",
+        "Teamkoordinering",
+        "Høyt tempo",
+        "Etterlevelse av sikkerhetsrutiner",
+        "Kundeservice",
+        "Opplæring av nye ansatte"
+      ]
+    },
+    {
+      "role": "Kunderådgiver (Sommerjobb)",
+      "company": "DNB",
+      "location": "Trondheim, Norge",
+      "period": "Mar 2025 - Aug 2025",
+      "points": ["Kundekontakt", "Problemløsning", "Teamarbeid", "Effektiv bruk av IT-systemer"]
+    },
+    {
+      "role": "Stuer / Flyarbeider",
+      "company": "Widerøe Ground Handling AS",
+      "location": "Tromsø, Norge",
+      "period": "2019 - 2021",
+      "points": ["Laste og losse bagasje", "Sikre etterlevelse av sikkerhetsrutiner", "Teamarbeid"]
+    },
+    {
+      "role": "Selger / Sjåfør",
+      "company": "Blekkhuset Kontorspar AS",
+      "location": "Tromsø, Norge",
+      "period": "2016 - 2021",
+      "points": ["Kundeservice", "Salg", "Logistikk og levering"]
+    },
+    {
+      "role": "Pizzakokk / Sjåfør",
+      "company": "Pizzabakeren Giæverbukta",
+      "location": "Tromsø, Norge",
+      "period": "2018 - 2019",
+      "points": ["Matlaging", "Kundeservice", "Levering"]
+    }
+  ],
+  "hobbies": ["Golf", "Fotball", "Trening", "Lære ny teknologi"]
+}
